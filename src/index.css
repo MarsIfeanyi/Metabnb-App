@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Red+Rose:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-dimBlack font-redRose text-5xl leading-[4rem];
+  }
+}
+
+@layer components {
+  #imgStyle {
+    @apply w-[100px] md:w-[200px];
+  }
+
+  span {
+    @apply text-spanColor font-medium;
+  }
+}
+
+.bg-gradMajor {
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+}
+
+.bg-gradientLogo {
+  background: linear-gradient
+    (91.47deg, #dc3e88 18.25%, #b840ae 43.34%, #843fe8 78.18%);
+}
