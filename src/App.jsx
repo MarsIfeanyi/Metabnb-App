@@ -6,7 +6,7 @@ import WalletConnection from "./pages/WalletConnection";
 
 export default function App(props) {
   return (
-    <div className="container md:max-w-7xl items-center mx-auto w-[90%]">
+    <div className="container max-w-full ">
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
