@@ -4,6 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @layer base {
   h1 {
     @apply text-dimBlack font-redRose text-5xl leading-[4rem];
@@ -17,6 +23,25 @@
 
   span {
     @apply text-spanColor font-medium;
+  }
+
+  .imgContStyle {
+    @apply border shadow-lg rounded-xl p-4;
+  }
+
+  .gridContainer {
+    @apply grid grid-cols-2 md:grid-cols-4 gap-6 mt-8 p-4 md:p-2;
+  }
+  .contentStyle01 {
+    @apply flex md:flex-row flex-col space-x-0 md:space-x-6 font-redRose text-sm mt-5 text-dimBlack space-y-2 md:space-y-0 mb-2 items-start md:items-center justify-start md:justify-between;
+  }
+
+  .contentStyle02 {
+    @apply flex flex-col md:flex-row  items-start md:items-center justify-start md:justify-between  space-y-2 md:space-y-0 font-redRose text-sm md:text-xs mb-6 text-dimBlack;
+  }
+
+  .h2Style {
+    @apply text-center font-redRose font-semibold text-2xl md:text-4xl mb-5 leading-10 p-2 md:p-0;
   }
 }
 
