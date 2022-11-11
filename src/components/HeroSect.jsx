@@ -1,11 +1,9 @@
-import React from "react";
-
 import { heroImg } from "../assets";
 
 const HeroSect = () => {
   return (
-    <div className="mb-10">
-      <div className="flex flex-col md:flex-row mt-28 items-center justify-between p-2">
+    <div className="mb-10  ">
+      <div className="flex flex-col md:flex-row mt-28 items-center justify-between py-2 px-8 md:px-14">
         <div className="flex flex-col w-full md:w-1/2">
           <h1>
             Rent a <span className="text-spanColor">Place</span> away from{" "}
@@ -34,7 +32,7 @@ const HeroSect = () => {
           <img src={heroImg} alt="heroSection-Image" />
         </div>
       </div>
-      <div className="flex flex-row justify-between bg-gradMajor mt-10 px-8 md:px-12 py-2 ">
+      <div className="flex flex-row justify-between bg-gradMajor mt-10 px-10 md:px-16 py-2 w-full">
         <img src="/MBToken.svg" alt="MBToken-Icon" id="imgStyle" />
         <img src="/MetaMask.svg" alt="MetaMask-Icon" id="imgStyle" />
         <img src="/OpenSea.svg" alt="OpenSea-Icon" id="imgStyle" />
