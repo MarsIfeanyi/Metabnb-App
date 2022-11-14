@@ -2,7 +2,7 @@ import React from "react";
 
 const MainSect = () => {
   return (
-    <div className="container mt-14 items-center mx-auto justify-center py-4 px-8 max-w-7xl">
+    <div className="container mt-14 items-center mx-auto justify-center py-4 px-2 md:px-8 max-w-7xl">
       <h2 className="h2Style pt-2">Inspiration for your next adventure</h2>
       <div className="gridContainer ">
         {/* 01 */}
