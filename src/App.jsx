@@ -11,7 +11,7 @@ export default function App(props) {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="place-to-stay" element={<PlaceToStay />} />
-          <Route path="wallet-connection" element={<WalletConnection />} />
+          <Route path="/wallet" element={<WalletConnection />} />
         </Routes>
       </Layout>
     </div>
