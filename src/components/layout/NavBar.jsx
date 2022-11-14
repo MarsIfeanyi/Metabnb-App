@@ -6,7 +6,7 @@ import ConnectWallet from "../ConnectWallet";
 const NavBar = (props) => {
   return (
     <>
-      <div className="flex flex-col md:flex-row mt-10 md:mt-6 items-center mx-auto justify-between space-y-10 py-2 px-8 max-w-7xl">
+      <div className="flex flex-col md:flex-row mt-10 md:mt-6 items-center mx-auto justify-between space-y-10 py-2 px-8 max-w-7xl shadow-sm">
         <header>
           <img src={logo} alt="logo-Image" />
         </header>
