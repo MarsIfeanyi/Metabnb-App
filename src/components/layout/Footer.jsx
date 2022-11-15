@@ -4,7 +4,7 @@ import { footerLogo, fbIcon, instIcon, twitIcon } from "../../assets";
 
 const Footer = (props) => {
   return (
-    <div className="bg-black mt-10 mb-5 py-16 px-20">
+    <div className="bg-black mt-10 mb-5 py-16 px-10 md:px-20">
       <div className="flex flex-col md:flex-row items-start md:items-center justify-between space-y-8">
         {/* 01 */}
         <div className="flex flex-col space-y-16">
