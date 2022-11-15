@@ -12,7 +12,22 @@ const NavBar = (props) => {
         </header>
 
         <nav>
-          <ul className="flex flex-row space-x-8 font-redRose text-xl  ">
+          <ul className=" hidden md:flex flex-row space-x-8 font-redRose text-xl  ">
+            <li className="hover:border-b-2 border-spanColor">
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/place-to-stay"> Place to stay</Link>
+            </li>
+            <li>
+              <Link to="/">NFTs</Link>
+            </li>
+            <li>
+              <Link to="/">Community</Link>
+            </li>
+          </ul>
+
+          <ul className="grid grid-cols-2 md:hidden gap-2">
             <li className="hover:border-b-2 border-spanColor">
               <Link to="/">Home</Link>
             </li>
