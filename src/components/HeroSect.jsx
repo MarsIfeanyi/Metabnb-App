@@ -18,7 +18,7 @@ const HeroSect = () => {
             <input
               type="search"
               placeholder="search for location"
-              className="border border-r-0  border-gray-400 p-2 rounded-tl-lg rounded-bl-lg outline-none w-[45%]"
+              className="border border-r-0  border-gray-400 p-2 rounded-tl-lg rounded-bl-lg outline-none w-[60%]"
             />
             <button className="bg-spanColor py-2 px-4 md:px-14 rounded-tr-lg rounded-br-lg text-white font-redRose font-normal border border-spanColor">
               Search
