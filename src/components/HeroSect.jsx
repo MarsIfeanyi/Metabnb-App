@@ -14,15 +14,13 @@ const HeroSect = () => {
             metaverse, get a chance to turn your imagination to reality at your
             comfort zone
           </p>
-          <div className="mt-10  rounded-lg p-4 items-center justify-between   ">
+          <div className=" mt-10  rounded-lg p-4 items-start justify-between mx-2">
             <input
               type="search"
-              name=""
-              id=""
               placeholder="search for location"
-              className="border border-r-0  border-gray-400 p-4 rounded-tl-lg rounded-bl-lg outline-none"
+              className="border border-r-0  border-gray-400 p-2 rounded-tl-lg rounded-bl-lg outline-none"
             />
-            <button className="bg-spanColor py-4 px-6 md:px-14 rounded-tr-lg rounded-br-lg text-white font-redRose font-normal border border-spanColor">
+            <button className="bg-spanColor py-2 px-4 md:px-14 rounded-tr-lg rounded-br-lg text-white font-redRose font-normal border border-spanColor">
               Search
             </button>
           </div>
