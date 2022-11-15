@@ -2,7 +2,7 @@ import React from "react";
 
 const Places = () => {
   return (
-    <div className="container mt-16  p-8 max-w-7xl items-center mx-auto">
+    <div className="container mt-16 p-2 md:p-8 max-w-7xl items-center mx-auto">
       <div
         className=" hidden md:flex flex-row  
        justify-between p-2 "
@@ -34,7 +34,7 @@ const Places = () => {
           </li>
         </ul>
 
-        <div className="relative border-2 rounded-lg p-2 flex  ml-28 w-1/4 space-x-0 ">
+        {/* <div className="relative border-2 rounded-lg p-2 flex  ml-28 w-1/4 space-x-0 ">
           <input
             type="text"
             placeholder="Location"
@@ -48,6 +48,21 @@ const Places = () => {
               className=" z-20 absolute top-2 left-56"
             />
           </span>
+        </div> */}
+
+        <div className="rounded-lg  flex flex-row">
+          <input
+            type="search"
+            placeholder="Location"
+            className="border border-r-0  border-gray-400 p-2 rounded-tl-lg rounded-bl-lg outline-none w-[50%]"
+          />
+          <button className="cursor-pointer">
+            <img
+              src="/settingIcon.png"
+              alt="setting-Icon"
+              className=" border rounded-tr-lg rounded-br-lg border-gray-400 px-3 border-l-0"
+            />
+          </button>
         </div>
       </div>
 
