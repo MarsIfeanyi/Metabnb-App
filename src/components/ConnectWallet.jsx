@@ -13,7 +13,7 @@ const ConnectWallet = () => {
     <div>
       <button
         onClick={toggleModal}
-        className="bg-white md:bg-spanColor text-spanColor md:text-white py-2 px-4 rounded-lg "
+        className="bg-white md:bg-spanColor text-spanColor md:text-white py-2 md:first-line:px-4 rounded-lg text-xl md:text-lg  px-8"
       >
         ConnectWallet
       </button>

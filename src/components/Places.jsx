@@ -2,7 +2,7 @@ import React from "react";
 
 const Places = () => {
   return (
-    <div className="container mt-16 p-2 md:p-8 max-w-7xl items-center mx-auto">
+    <div className="container mt-16 p-2 md:p-8 max-w-7xl items-center mx-auto ">
       <div
         className=" hidden md:flex flex-row  
        justify-between p-2 "
@@ -52,7 +52,7 @@ const Places = () => {
       </div>
 
       <div>
-        <ul className=" grid grid-cols-4 gap-x-0 gap-y-2 md:hidden space-x-0 items-start  md:ml-10 font-redRose text-dimBlack px-4">
+        <ul className=" grid grid-cols-4 gap-x-0 gap-y-2 md:hidden space-x-0 items-start  md:ml-10 font-redRose text-dimBlack px-4 shadow-sm">
           <li>
             <a href="#">Resturant</a>
           </li>
