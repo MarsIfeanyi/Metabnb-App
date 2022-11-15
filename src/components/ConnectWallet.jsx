@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
 import { useState } from "react";
 
 const ConnectWallet = () => {
@@ -13,7 +13,7 @@ const ConnectWallet = () => {
     <div>
       <button
         onClick={toggleModal}
-        className="bg-gradMajor text-white py-2 px-4 rounded-lg "
+        className="bg-white md:bg-spanColor text-spanColor md:text-white py-2 px-4 rounded-lg "
       >
         ConnectWallet
       </button>
