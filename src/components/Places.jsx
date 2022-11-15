@@ -49,25 +49,10 @@ const Places = () => {
             />
           </span>
         </div> */}
-
-        <div className="rounded-lg  flex flex-row">
-          <input
-            type="search"
-            placeholder="Location"
-            className="border border-r-0  border-gray-400 p-2 rounded-tl-lg rounded-bl-lg outline-none w-[50%]"
-          />
-          <button className="cursor-pointer">
-            <img
-              src="/settingIcon.png"
-              alt="setting-Icon"
-              className=" border rounded-tr-lg rounded-br-lg border-gray-400 px-3 border-l-0"
-            />
-          </button>
-        </div>
       </div>
 
       <div>
-        <ul className=" grid grid-cols-4 gap-2 md:hidden space-x-0 items-start  md:ml-10 font-redRose text-dimBlack">
+        <ul className=" grid grid-cols-4 gap-x-0 gap-y-2 md:hidden space-x-0 items-start  md:ml-10 font-redRose text-dimBlack px-4">
           <li>
             <a href="#">Resturant</a>
           </li>
@@ -94,7 +79,7 @@ const Places = () => {
           </li>
         </ul>
 
-        <div className="relative border-2 rounded-lg p-2 flex md:hidden mt-8 ml-28 w-1/2 space-x-0">
+        {/* <div className="relative border-2 rounded-lg p-2 flex md:hidden mt-8 ml-28 w-1/2 space-x-0">
           <input
             type="text"
             placeholder="Location"
@@ -105,7 +90,7 @@ const Places = () => {
             alt="setting-Icon"
             className=" z-20 absolute top-2 left-40"
           />
-        </div>
+        </div> */}
       </div>
 
       <div className="gridContainer">
