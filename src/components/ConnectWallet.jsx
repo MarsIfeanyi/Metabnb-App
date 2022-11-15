@@ -19,10 +19,10 @@ const ConnectWallet = () => {
       </button>
 
       {modal && (
-        <div className="modal bg-white rounded-2xl  md:items-center md:mx-auto md:justify-center w-[80%] md:w-1/2 mt-10 border border-gray-200 shadow-xl px-4 md:pb-5">
+        <div className="modal bg-white rounded-2xl  md:items-center md:mx-auto md:justify-center mt-10 border border-gray-200 shadow-xl px-4 md:pb-5">
           <div className="over" onClick={toggleModal}></div>
 
-          <div className="connect">
+          <div className="connect max-w-[20rem] md:max-w-[50rem]">
             <div className="flex flex-row items-center justify-between">
               <h2 className="font-redRose text-xl font-semibold  px-10 py-6">
                 Connect Wallet
